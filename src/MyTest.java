@@ -8,4 +8,6 @@ public class MyTest {
         System.out.println(sum);
 
     }
+
+    лшдь
 }
