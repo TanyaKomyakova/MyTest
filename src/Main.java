@@ -5,5 +5,10 @@ public class Main {
        BonusMilesService service = new BonusMilesService();
        int miles = service.calculate(1_045);
             System.out.println(miles);
+
+        BmiService imtservice = new BmiService();
+        double IMT = imtservice.calculate(49,1.64);
+        System.out.println(IMT);
         }
+
     }
